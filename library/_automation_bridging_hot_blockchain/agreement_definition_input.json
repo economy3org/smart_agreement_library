@@ -33,7 +33,7 @@
           "bridging_unit": {
             "description": "Since the units are from this network, the index is 0",
             "index": 1,
-            "name": "Hot Token",
+            "name": "Mock Hot Token",
             "symbol": "HOT"
           }
         },
@@ -45,7 +45,7 @@
           "bridging_unit": {
             "description": "Since the units are from this network, the index is 0",
             "index": 1,
-            "name": "Hot Token",
+            "name": "Mock Hot Token",
             "symbol": "HOT"
           }
         }
