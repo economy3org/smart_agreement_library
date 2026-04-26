@@ -6,7 +6,7 @@ A Unyt Smart Agreement that issues 1 E3 attestation credit to a producer each ti
 
 **The economic loop:**
 1. A brand/buyer parks N E3 base units against this agreement — one per expected attestation in their supply chain.
-2. The Economy3 Gateway (automated executor) harvests SignedFact logs from the Holochain DHT (or Postgres bridge during the Q2 interim period).
+2. The Economy3 Gateway (automated executor) harvests SignedFact logs from PostgreSQL (primary) or the Holochain DHT when a conductor is available.
 3. For each valid log, the producer identified by `creator_did` receives 1 E3.
 4. Authority-only records (privacy tier 3) are excluded — their parked spend is returned to the brand.
 
